@@ -1,0 +1,111 @@
+.top{
+    padding: 20px;
+    border-bottom: 3px solid rgb(0, 255, 140);
+}
+#draggable { 
+    width: 150px;
+    height: 150px;
+    padding: 60px 0;
+}
+#draggable2 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0; 
+}
+#droppable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    float: left;
+    margin: 10px; 
+}
+#sortable { 
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    width: 60%; 
+}
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+}
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
+}
+
+.ui-controlgroup-vertical {
+    width: 150px;
+  }
+  .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+  .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+    text-align: center;
+  }
+  #car-type-button {
+    width: 120px;
+  }
+  .ui-controlgroup-horizontal .ui-spinner-input {
+    width: 20px;
+  }
+
+  .form-check{
+    margin: 10px;
+  }
+
+  .toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+#effect { 
+    width: 240px;  
+    padding: 1em; 
+    border: 1px solid #000; 
+    background: #eee; 
+    color: #333; 
+}
+.newClass { 
+    text-indent: 40px; 
+    letter-spacing: .4em;
+    width: 410px; 
+    height: 120px; 
+    padding: 30px; 
+    margin: 10px; 
+    font-size: 1.1em; 
+}
+
+.graph {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+  #e_button { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+  #e_effect { 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+}
+  #effect h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center;
+ }
+  .ui-effects-transfer { 
+    border: 2px dotted gray; 
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <title>Bootstrap templete</title>
+
+    <!-- favicon -->
+      <link rel="icon" type="text/x-icon" href="images/icon.png">
+
+    <!-- font links -->
+  
+    <!-- css links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+
+  </head>
+<body>
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+    <div class="col-lg-5">
+      <h1 class="top text-center">jqueryui practice</h1>
+    </div>
+  </div>
+
+  <!-- Drag -->
+  <h1>Drag</h1>
+  <div class="row">
+    <div class="col-lg-5">
+      <div id="draggable" class="ui-widget-content">
+        <p class="text-center">Drag me around</p>
+      </div>
+      </div>
+  </div>
+  <hr>
+
+    <!-- droppable -->
+    <h1>droppable</h1>
+    <div class="row">
+      <div class="col-lg-5">
+        <div id="draggable2" class="ui-widget-content">
+          <p>Drag me to my target</p>
+        </div>
+          
+        <div id="droppable" class="ui-widget-header">
+          <p>Drop here</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <!-- sortable -->
+    <h1>sortable</h1>
+    <div class="row">
+      <div class="col-lg-5">
+        <ul id="sortable">
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <!-- accordion -->
+    <h1>accordion</h1>
+    <div id="accordion">
+      <h3>Section 1</h3>
+      <div>
+        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+      </div>
+      <h3>Section 3</h3>
+      <div>
+        <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+      <h3>Section 4</h3>
+      <div>
+        <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- autocomplete -->
+    <h1>autocomplete</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="#">
+          <div class="mb-3">
+            <label for="f_name" class="form-label">Enter your fruit name</label>
+            <input type="text" class="form-control" id="f_name">
+          </div>
+    
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form> 
+    
+      </div>
+    </div>
+    <hr>
+
+    <!-- controlgroup -->
+    <div class="widget">
+      <h1>Controlgroup</h1>
+      <fieldset>
+        <legend>Rental Car</legend>
+        <div class="controlgroup">
+          <select id="car-type">
+            <option>Compact car</option>
+            <option>Midsize car</option>
+            <option>Full size car</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Truck</option>
+            <option>Van</option>
+          </select>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1">
+            <label class="form-check-label" for="check1">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check2">
+            <label class="form-check-label" for="check2">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check3">
+            <label class="form-check-label" for="check3">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check4">
+            <label class="form-check-label" for="check4">
+              Default checkbox
+            </label>
+          </div>
+          <button class="btn btn-success">Book Now!</button>
+        </div>
+      </fieldset>
+      <br>
+      
+    </div>
+    <hr>
+
+    <!-- datepicker -->
+    <h1>datepicker</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="#">
+          <div class="mb-3">
+            <label for="date" class="form-label">Enter your date</label>
+            <input type="text" class="form-control" id="date">
+          </div>
+    
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form> 
+    
+      </div>
+    </div>
+    <hr>
+
+    <!-- tabs -->
+    <h1>Tabs</h1>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Preloaded</a></li>
+        <li><a href="ajax/content1.html">Tab 1</a></li>
+        <li><a href="ajax/content2.html">Tab 2</a></li>
+        <li><a href="ajax/content3-slow.php">Tab 3 (slow)</a></li>
+        <li><a href="ajax/content4-broken.php">Tab 4 (broken)</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+      </div>
+    </div>
+    <!-- tooltip -->
+    <h1>tooltip</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="#">
+          <div class="mb-3">
+            <label for="Firstname" class="form-label">Firstname</label>
+            <input type="text" class="form-control" id="Firstname" title="Please provide your firstname.">
+
+            <label for="Lastname" class="form-label">Lastname</label>
+            <input type="text" class="form-control" id="Lastname" title="Please provide your firstname.">
+
+            <label for="Address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="Address" title="Your home or work address.">
+          </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <h1 class="top text-center">Effects</h1>
+      </div>
+    </div>
+
+    <!-- add class -->
+    <h1>add class </h1>
+    <div class="toggler">
+      <div id="effect" class="ui-corner-all">
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+      </div>
+    </div>
+     
+    <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+    <hr>
+
+    <!-- color animation -->
+    <h1>color animation</h1>
+    <div class="toggler">
+      <div id="effect2" class="ui-widget-content ui-corner-all">
+        <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+        <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+        </p>
+      </div>
+    </div>
+     
+    <button id="button2" class="ui-state-default ui-corner-all">Toggle Effect</button>
+    <hr>
+    
+    <h1>Easing</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <div id="graphs"></div>
+      </div>
+    </div>
+    <hr>
+
+
+
+
+
+  </div>
+
+  
+
+
+
+
+  <!-- js links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
